@@ -1,0 +1,38 @@
+import React from 'react';
+import classes from './Home.module.css';
+import img from '../../assets/images/home-img.png';
+
+export default function Hero() {
+  return (
+    <section
+      className={classes.home}
+      id='home'
+      style={{
+        backgroundImage: `url(${img})`,
+      }}
+    >
+      <div className={classes.image}></div>
+      <div className={classes.heading}>
+        <div className={classes.heading1}>
+          <h1>welcome to</h1> <br />
+        </div>
+        <div className={classes.heading2}>
+          <h2>
+            <span>Eco</span> Mobile <br />
+            Cleaning
+          </h2>
+        </div>
+      </div>
+      <div className={classes.text}>
+        <p>
+          <span>Mobile</span> Car Wash <br /> <span>Detailing</span> services
+          with a personal touch <br />
+          <span>Your</span> car is always in great hands with us
+        </p>
+        <div className={classes.btn}>
+          <a href='/'>Prices</a>
+        </div>
+      </div>
+    </section>
+  );
+}

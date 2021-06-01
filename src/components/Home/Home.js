@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Home.module.css';
 import img from '../../assets/images/home-img.png';
+import { Link } from 'react-scroll';
 
 export default function Hero() {
   return (
@@ -30,9 +31,9 @@ export default function Hero() {
           with a personal touch <br />
           <span>Your</span> car is always in great hands with us
         </p>
-        <div className={classes.btn}>
-          <a href='/'>Prices</a>
-        </div>
+        <Link to='prices' spy={true} smooth='easeInOutCubic' duration={2000}>
+          <div className={classes.btn}>Prices</div>
+        </Link>
       </div>
     </section>
   );

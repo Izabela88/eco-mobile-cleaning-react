@@ -9,6 +9,7 @@ export default function Hero() {
       id='home'
       style={{
         backgroundImage: `url(${img})`,
+        filter: 'brightness(90%)',
       }}
     >
       <div className={classes.image}></div>

@@ -21,13 +21,11 @@
 .container__image img {
   position: relative;
   top: -50px;
-  filter: brightness(60%);
-  filter: drop-shadow(-19px 12px 8px #000);
+  filter: drop-shadow(-19px 12px 8px #000) brightness(90%);
   z-index: 50;
   overflow: unset;
   height: 100%;
   margin-left: 23%;
-  filter: brightness(90%);
 }
 
 .text {

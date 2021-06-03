@@ -1,8 +1,7 @@
 .persons {
-  opacity: 0.95;
   position: relative;
   width: 100vw;
-  background-color: rgb(23 23 23);
+  background-color: #000;
   height: 100vh;
 }
 
@@ -10,7 +9,6 @@
   display: flex;
   justify-content: center;
   z-index: 200;
-  padding-top: 85px;
 }
 
 .persons__heading h1 {

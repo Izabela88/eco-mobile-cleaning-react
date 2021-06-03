@@ -1,6 +1,7 @@
 import classes from './Person.module.css';
 import sanityClient from '../../../../client';
 import React, { useEffect, useState } from 'react';
+import ReactCardCarousel from 'react-card-carousel';
 
 export default function Person() {
   const [testimonialsData, setTestimonialsData] = useState(null);
@@ -27,10 +28,10 @@ export default function Person() {
   console.log(testimonialsData);
 
   return (
-    <div className={classes.box__persons}>
+    <ReactCardCarousel autoplay={true} autoplay_speed={4000}>
       {testimonialsData &&
-        testimonialsData.map((slide, _id) => (
-          <div key={_id}>
+        testimonialsData.map((slide, index) => (
+          <div className={classes.box__persons} key={index}>
             <div className={classes.container__image}>
               <img src={slide.mainImage.asset.url} alt={slide.mainImage.alt} />
             </div>
@@ -41,6 +42,6 @@ export default function Person() {
             </div>
           </div>
         ))}
-    </div>
+    </ReactCardCarousel>
   );
 }

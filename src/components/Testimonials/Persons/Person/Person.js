@@ -28,7 +28,7 @@ export default function Person() {
   console.log(testimonialsData);
 
   return (
-    <ReactCardCarousel autoplay={true} autoplay_speed={4000}>
+    <ReactCardCarousel autoplay={true} autoplay_speed={6000}>
       {testimonialsData &&
         testimonialsData.map((slide, index) => (
           <div className={classes.box__persons} key={index}>

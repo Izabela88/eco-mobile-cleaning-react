@@ -2,6 +2,7 @@ import Home from './components/Home/Home';
 import Toolbar from './components/Navigation/Toolbar/Toolbar';
 import About from './components/About/About';
 import Prices from './components/Prices/Prices';
+import Persons from './components/Testimonials/Persons/Persons';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Toolbar />
       <About />
       <Prices />
+      <Persons />
     </div>
   );
 }

@@ -1,0 +1,20 @@
+.persons {
+  opacity: 0.95;
+  position: relative;
+  width: 100vw;
+  background-color: rgb(23 23 23);
+}
+
+.persons__heading {
+  display: flex;
+  justify-content: center;
+  z-index: 200;
+  margin-top: 100px;
+}
+
+.persons__heading h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: var(--color-primary-50);
+  font-family: 'Spartan', sans-serif;
+}

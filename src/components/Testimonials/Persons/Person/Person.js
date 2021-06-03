@@ -2,6 +2,7 @@ import classes from './Person.module.css';
 import sanityClient from '../../../../client';
 import React, { useEffect, useState } from 'react';
 import ReactCardCarousel from 'react-card-carousel';
+import icon from '../../../../assets/images/icons/double-quotes.svg';
 
 export default function Person() {
   const [testimonialsData, setTestimonialsData] = useState(null);
@@ -39,6 +40,9 @@ export default function Person() {
             <div className={classes.text}>
               <h1>{slide.title}</h1>
               <p>{slide.description}</p>
+              <div className={classes.icon}>
+                <img src={icon} alt='' />
+              </div>
             </div>
           </div>
         ))}

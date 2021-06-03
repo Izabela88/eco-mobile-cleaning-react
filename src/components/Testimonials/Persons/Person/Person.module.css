@@ -2,7 +2,7 @@
 
 .box__persons {
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -39,12 +39,29 @@
 
 .text h1 {
   font-size: 30px;
-  margin-bottom: -8%;
-  margin-top: 8%;
+  margin-top: -25%;
 }
 
 .text p {
   font-size: 23px;
   margin-top: 65px;
   line-height: 35px;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: rgb(2 31 162 / 52%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 70%;
+  left: 78%;
+  z-index: 0;
+}
+
+.icon img {
+  width: 80%;
+  height: 80%;
 }

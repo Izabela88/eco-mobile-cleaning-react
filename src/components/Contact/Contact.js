@@ -5,6 +5,7 @@ import img from '../../assets/images/i1.jpg';
 import email from '../../assets/images/icons/email.svg';
 import phone from '../../assets/images/icons/phone.svg';
 import address from '../../assets/images/icons/map-pointer.svg';
+import fac from '../../assets/images/icons/facebook-logo.svg';
 
 export default function Contact() {
   return (
@@ -44,6 +45,16 @@ export default function Contact() {
               <br /> 26 Cheering Lane <br />
               Derby DE24 0GT
             </p>
+            <div className={styles.icon}>
+              <img src={fac} alt='' />
+            </div>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://www.facebook.com/Eco-mobile-cleaning-411751672939251/reviews/?ref=page_internal'
+            >
+              Check out our Facebook site here!
+            </a>
           </div>
         </div>
       </div>

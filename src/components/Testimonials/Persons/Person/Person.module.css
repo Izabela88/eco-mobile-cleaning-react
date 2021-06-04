@@ -12,7 +12,6 @@
 .container__image {
   height: 500px;
   width: 354px;
-  box-shadow: 0 12px 30px rgb(0 0 0 / 90%);
   background-color: rgb(2 31 162 / 52%);
   z-index: 110;
   overflow: unset;

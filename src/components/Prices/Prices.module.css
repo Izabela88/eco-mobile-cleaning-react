@@ -27,6 +27,7 @@
 .prices {
   background-color: #000;
   position: relative;
+  width: 100vw;
 }
 
 .bg__image img {

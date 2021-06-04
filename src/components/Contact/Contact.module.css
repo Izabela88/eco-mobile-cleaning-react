@@ -100,15 +100,3 @@
   width: 80%;
   height: 80%;
 }
-
-.text {
-  position: absolute;
-  top: 98%;
-  text-transform: lowercase;
-  font-family: 'Lato', sans-serif;
-  color: #fff;
-}
-
-.text a {
-  color: #fff;
-}

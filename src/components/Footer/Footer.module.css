@@ -11,3 +11,17 @@
   font-weight: bold;
   color: var(--color-primary-50);
 }
+
+.footer__content p {
+  padding: 25px;
+}
+
+.text {
+  text-transform: lowercase;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.text a {
+  color: #fff;
+}

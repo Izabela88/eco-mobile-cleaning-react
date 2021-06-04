@@ -46,12 +46,6 @@ export default function Contact() {
             </p>
           </div>
         </div>
-        <div className={styles.text}>
-          Icons from{' '}
-          <a href='https://www.flaticon.com/' title='Flaticon'>
-            www.flaticon.com
-          </a>
-        </div>
       </div>
     </section>
   );

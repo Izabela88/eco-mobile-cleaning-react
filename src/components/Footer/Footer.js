@@ -8,6 +8,12 @@ const Footer = () => (
         Copyright Eco Mobile Cleaning , Izabela Krupinska &copy; 2021. All
         Rights Reserved
       </p>
+      <p className={styles.text}>
+        Icons from{' '}
+        <a href='https://www.flaticon.com/' title='Flaticon'>
+          www.flaticon.com
+        </a>
+      </p>
     </div>
   </footer>
 );

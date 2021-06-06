@@ -1,12 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-<<<<<<< HEAD
 /node_modules
 /carwash/node_modules
-=======
-node_modules
->>>>>>> ca2c9d2769509a0dc70518fc8a3d9a53e9a8bd4d
 /.pnp
 .pnp.js
 

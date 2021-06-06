@@ -55,3 +55,9 @@
 .heading h1 span {
   color: var(--color-primary-800);
 }
+
+.container {
+  position: relative;
+  max-width: 1400px;
+  margin: auto;
+}

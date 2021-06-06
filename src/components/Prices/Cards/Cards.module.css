@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  -webkit-perspective: 150rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  height: 52rem;
+  cursor: pointer;
+  color: var(--color-primary-50);
+}
+
+.card h1 {
+  font-size: 25px;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  color: var(--color-primary-100);
+}
+
+.card h2 {
+  font-size: 21px;
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+  color: var(--color-primary-50);
+}
+
+.card h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
+
+.card h4 {
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 11px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.card p {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 40px;
+  font-family: 'Lato', sans-serif;
+}
+
+.card em {
+  font-size: 11px;
+}
+.card ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.card li {
+  text-align: left;
+  margin-left: 20%;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: 'Spartan', sans-serif;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+  margin: 26px auto;
+  border-radius: 50%;
+  box-shadow: 0 15px 10px -10px rgb(0 0 0 / 90%);
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  text-align: center;
+}
+
+.card__side {
+  height: 46rem;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 50px;
+  left: 5%;
+  width: 90%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 1rem 3rem rgba(2, 38, 158, 0.5);
+  box-shadow: 0 1rem 3rem rgba(2, 38, 158, 0.5);
+}
+
+.card__sidefront1 {
+  /* background: linear-gradient(-45deg, #02a164, #0220a0); */
+  background: rgb(26 27 30 / 60%);
+}
+
+.card__sideback {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card__sideback1 {
+  /* background: linear-gradient(-45deg, #0220a0, #02a164);
+  
+} */
+  background: rgb(26 27 30 / 60%);
+}
+.card:hover .card__sidefront1 {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.card:hover .card__sideback {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
+
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+
+.card__pricebox {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.card__pricebox p {
+  font-size: 30px;
+  margin: 20px 0;
+  color: var(--color-primary-50);
+}

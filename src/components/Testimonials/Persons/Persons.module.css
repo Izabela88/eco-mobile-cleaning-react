@@ -1,0 +1,25 @@
+.persons {
+  position: relative;
+  width: 100vw;
+  background-color: #000;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.persons__heading {
+  position: absolute;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.persons__heading h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: var(--color-primary-50);
+  font-family: 'Spartan', sans-serif;
+}

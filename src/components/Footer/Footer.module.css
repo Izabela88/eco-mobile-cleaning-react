@@ -1,0 +1,27 @@
+.main__footer {
+  height: 100px;
+  background-color: #000;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: var(--color-primary-50);
+}
+
+.footer__content p {
+  padding: 25px;
+}
+
+.text {
+  text-transform: lowercase;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.text a {
+  color: #fff;
+}

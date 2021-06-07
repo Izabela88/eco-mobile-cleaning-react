@@ -1,19 +1,35 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
+import { useForm, Controller } from 'react-hook-form';
+import ReactDatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 import classes from './Form.module.css';
+
+// const defaultDate = new Date();
 
 export default function ContactForm() {
   const {
     register,
     handleSubmit,
+    control,
     formState: { errors, isDirty },
   } = useForm();
-  const onSubmit = (data) => {
-    alert(JSON.stringify(data));
-  };
 
   return (
-    <form className={classes.form} onSubmit={handleSubmit(onSubmit)}>
+    <form
+      className={classes.form}
+      onSubmit={handleSubmit((data) => console.log(data))}
+    >
+      <>
+        <Controller
+          control={control}
+          name='ReactDatePicker'
+          render={({ field: { onChange, value } }) => (
+            <ReactDatePicker selected={value} onChange={onChange} />
+          )}
+          // defaultValue={defaultDate}
+        />
+      </>
+
       <input
         className={classes.input}
         placeholder='First Name'

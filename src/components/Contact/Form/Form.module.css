@@ -33,6 +33,14 @@
   font-size: 15px;
 }
 
+.err {
+  color: red;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  margin-top: -9px;
+}
+
 .btn {
   height: 50px;
   border: none;
@@ -41,12 +49,4 @@
   letter-spacing: 3px;
   transition-duration: 0.3s;
   box-shadow: 0 12px 30px rgb(0 0 0 / 40%);
-}
-
-.err {
-  color: red;
-  font-size: 10px;
-  text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
-  margin-top: -9px;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import styles from './Form.module.css';
+import classes from './Form.module.css';
 
 export default function ContactForm() {
   const {
@@ -13,9 +13,9 @@ export default function ContactForm() {
   };
 
   return (
-    <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
+    <form className={classes.form} onSubmit={handleSubmit(onSubmit)}>
       <input
-        className={styles.input}
+        className={classes.input}
         placeholder='First Name'
         {...register('firstName', {
           validate: (value) => value.length > 2 && value.length < 20,
@@ -25,13 +25,13 @@ export default function ContactForm() {
         })}
       />
       {errors.firstName && (
-        <div className={styles.err}>
+        <div className={classes.err}>
           <p>Wrong Name!</p>
         </div>
       )}
 
       <input
-        className={styles.input}
+        className={classes.input}
         placeholder='Last Name'
         {...register('lastName', {
           validate: (value) => value.length > 2 && value.length < 40,
@@ -40,13 +40,13 @@ export default function ContactForm() {
         })}
       />
       {errors.lastName && (
-        <div className={styles.err}>
+        <div className={classes.err}>
           <p>Wrong Name!</p>
         </div>
       )}
 
       <input
-        className={styles.input}
+        className={classes.input}
         placeholder='Email'
         type='email'
         {...register('email', {
@@ -54,26 +54,26 @@ export default function ContactForm() {
         })}
       />
       {errors.message && (
-        <div className={styles.err}>
+        <div className={classes.err}>
           <p>Required!</p>
         </div>
       )}
 
       <textarea
         placeholder='Your Message'
-        className={styles.textarea}
+        className={classes.textarea}
         {...register('message', {
           required: true,
           validate: (value) => value.length > 2 && value.length < 500,
         })}
       />
       {errors.message && (
-        <div className={styles.err}>
+        <div className={classes.err}>
           <p>Required!</p>
         </div>
       )}
 
-      <button disabled={!isDirty} className={styles.btn} type='submit'>
+      <button disabled={!isDirty} className={classes.btn} type='submit'>
         Send
       </button>
     </form>

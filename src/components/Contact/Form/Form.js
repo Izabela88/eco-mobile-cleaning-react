@@ -4,8 +4,6 @@ import ReactDatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import classes from './Form.module.css';
 
-// const defaultDate = new Date();
-
 export default function ContactForm() {
   const {
     register,
@@ -24,7 +22,14 @@ export default function ContactForm() {
           control={control}
           name='ReactDatePicker'
           render={({ field: { onChange, value } }) => (
-            <ReactDatePicker selected={value} onChange={onChange} />
+            <ReactDatePicker
+              className={classes.input}
+              placeholderText='Select Date'
+              selected={value}
+              onChange={onChange}
+              showTimeSelect
+              dateFormat='Pp'
+            />
           )}
           // defaultValue={defaultDate}
         />

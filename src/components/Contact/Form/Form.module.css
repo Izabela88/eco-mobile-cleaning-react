@@ -16,6 +16,7 @@
   font-family: 'Lato', sans-serif;
   color: #fff;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .input::placeholder {

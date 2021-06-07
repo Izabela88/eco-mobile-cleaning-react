@@ -32,7 +32,6 @@
   right: 0;
   text-align: center;
   margin-top: 70px;
-
   color: var(--color-primary-400);
   font-family: 'Spartan', sans-serif;
 }
@@ -45,9 +44,9 @@
 
 .contact__box {
   width: 1300px;
-  height: 600px;
+  height: 700px;
   margin: auto;
-  top: 25%;
+  top: 15%;
   position: inherit;
   padding: 20px;
   box-shadow: 0 12px 30px rgb(0 0 0 / 61%);

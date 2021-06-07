@@ -20,7 +20,7 @@ export default function Contact() {
       <div className={classes.container}>
         <div className={classes.headings}>
           <h1>
-            <span>Questions?</span> Stay in Touch!
+            <span>Book</span> Your Appoitment Here!
           </h1>
         </div>
         <div className={classes.contact__box}>

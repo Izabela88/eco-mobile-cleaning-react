@@ -49,9 +49,9 @@
 
 .heading {
   font-family: 'Spartan', sans-serif;
-  position: relative;
+  position: absolute;
   left: 44%;
-  top: 7%;
+  top: 10%;
 }
 
 .heading h1 {

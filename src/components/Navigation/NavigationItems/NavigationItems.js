@@ -9,6 +9,7 @@ export default function NavigationItems() {
       <NavigationItem id='about'>About</NavigationItem>
       <NavigationItem id='prices'>Prices</NavigationItem>
       <NavigationItem id='testimonials'>Testimonials</NavigationItem>
+      <NavigationItem id='contact'>Booking</NavigationItem>
       <NavigationItem id='contact'>Contact</NavigationItem>
     </ul>
   );

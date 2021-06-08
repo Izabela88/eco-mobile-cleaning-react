@@ -5,6 +5,7 @@ import Prices from './components/Prices/Prices';
 import Persons from './components/Testimonials/Persons/Persons';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import ScrollToTopBtn from './components/ScrollToTopBtn/ScrollToTopBtn';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Prices />
       <Persons />
       <Contact />
+      <ScrollToTopBtn />
       <Footer />
     </div>
   );

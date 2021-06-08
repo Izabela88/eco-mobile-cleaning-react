@@ -4,7 +4,6 @@ import Form from './Form/Form';
 import img from '../../assets/images/i1.jpg';
 import email from '../../assets/images/icons/email.svg';
 import phone from '../../assets/images/icons/phone.svg';
-import address from '../../assets/images/icons/map-pointer.svg';
 import fac from '../../assets/images/icons/facebook-logo.svg';
 
 export default function Contact() {

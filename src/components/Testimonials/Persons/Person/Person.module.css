@@ -64,3 +64,33 @@
   width: 80%;
   height: 80%;
 }
+
+@media (max-width: 499px) {
+  .container__image {
+    height: 230px;
+  }
+
+  .container__image img {
+    top: -22px;
+  }
+  .text {
+    width: 335px;
+  }
+
+  .text h1 {
+    font-size: 15px;
+  }
+  .text p {
+    font-size: 8px;
+    margin: 0;
+    line-height: 11px;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+}

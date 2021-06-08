@@ -1,10 +1,10 @@
 .contact {
-  height: 100vh;
   width: 100vw;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
 }
 
 .box {
@@ -55,13 +55,13 @@
   justify-content: space-around;
 }
 
-.form__header {
+/* .form__header {
   position: absolute;
   top: 10%;
   left: 63%;
   color: var(--color-primary-400);
   text-transform: uppercase;
-}
+} */
 
 .form__icons {
   display: grid;
@@ -112,4 +112,54 @@
 .icon img {
   width: 80%;
   height: 80%;
+}
+
+@media (max-width: 499px) {
+  .contact {
+    height: 100%;
+    overflow: auto;
+  }
+
+  .headings {
+    margin-top: -240px;
+    padding: 70px;
+  }
+
+  .headings h1 {
+    font-size: 25px;
+  }
+
+  .contact__box {
+    flex-direction: column;
+    width: 400px;
+    height: 583px;
+    position: relative;
+    margin: 240px auto;
+    top: 0;
+  }
+
+  .form__icons {
+    height: 125px;
+    width: 250px;
+  }
+
+  .form__icons p {
+    font-size: 15px;
+  }
+
+  .form__icons a {
+    font-size: 15px;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .box {
+    height: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
 }

@@ -23,3 +23,12 @@
   color: var(--color-primary-50);
   font-family: 'Spartan', sans-serif;
 }
+
+@media (max-width: 499px) {
+  .persons__heading h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+}

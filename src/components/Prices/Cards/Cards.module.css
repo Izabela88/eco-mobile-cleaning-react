@@ -161,3 +161,12 @@
   margin: 20px 0;
   color: var(--color-primary-50);
 }
+
+@media (max-width: 499px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+}

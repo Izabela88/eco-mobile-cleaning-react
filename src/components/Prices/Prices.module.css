@@ -61,3 +61,20 @@
   max-width: 1400px;
   margin: auto;
 }
+
+@media (max-width: 499px) {
+  .prices {
+    overflow: auto;
+  }
+
+  .heading {
+    margin-top: 50px;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+}

@@ -54,3 +54,27 @@
   background-color: var(--color-primary-500);
   margin-top: 10px;
 }
+
+@media (max-width: 499px) {
+  .form {
+    height: 525px;
+    width: 345px;
+  }
+
+  .input {
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .textarea {
+    height: 100px;
+    margin-bottom: 0;
+  }
+
+  .btn {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+}

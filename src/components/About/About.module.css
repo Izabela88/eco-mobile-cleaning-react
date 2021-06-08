@@ -63,3 +63,29 @@
 .heading h1 span {
   color: var(--color-primary-800);
 }
+
+@media (max-width: 499px) {
+  .about {
+    height: 100%;
+    overflow: auto;
+  }
+
+  .heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+  }
+
+  .image {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+}

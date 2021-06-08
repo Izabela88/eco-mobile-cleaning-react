@@ -158,3 +158,31 @@
   font-weight: bold;
   font-family: 'DM Sans', sans-serif;
 }
+
+@media (max-width: 499px) {
+  .heading {
+    width: 300px;
+  }
+
+  .heading1 {
+    font-size: 20px;
+    left: 0;
+    top: 30%;
+  }
+
+  .heading2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+
+  .text p span {
+    color: var(--color-primary-800);
+  }
+}
+
+@media (max-width: 1024px) {
+}

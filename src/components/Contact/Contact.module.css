@@ -4,7 +4,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  overflow: hidden;
+  height: 100vh;
 }
 
 .box {
@@ -55,18 +55,18 @@
   justify-content: space-around;
 }
 
-/* .form__header {
+.form__header {
   position: absolute;
   top: 10%;
   left: 63%;
   color: var(--color-primary-400);
   text-transform: uppercase;
-} */
+}
 
 .form__icons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 350px;
+  width: 430px;
   grid-gap: 25px;
   justify-items: center;
   text-align: center;

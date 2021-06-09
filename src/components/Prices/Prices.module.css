@@ -28,6 +28,7 @@
   background-color: #000;
   position: relative;
   width: 100vw;
+  overflow: hidden;
 }
 
 .bg__image img {
@@ -63,14 +64,9 @@
 }
 
 @media (max-width: 499px) {
-  .prices {
-    overflow: auto;
-  }
-
   .heading {
-    margin-top: 50px;
     padding-top: 80px;
-    margin-bottom: 70px;
+    margin-bottom: 25px;
   }
 
   .heading h1 {

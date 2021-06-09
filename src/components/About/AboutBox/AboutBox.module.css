@@ -60,9 +60,18 @@
 @media (max-width: 499px) {
   .box {
     grid-template-columns: repeat(1, 1fr);
-    height: 290px;
+    position: relative;
     width: 350px;
     margin: auto;
+    margin-top: 270%;
+  }
+
+  .box h2 {
+    margin-top: 15px;
+  }
+
+  .box__item {
+    height: 265px;
   }
 
   .icon {

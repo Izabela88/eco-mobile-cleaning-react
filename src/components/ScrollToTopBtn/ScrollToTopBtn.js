@@ -1,6 +1,7 @@
 import classes from './ScrollToTopBtn.module.css';
 import * as react from 'react';
 import { FaArrowCircleUp } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const ScrollArrow = () => {
   const [showScroll, setShowScroll] = react.useState(false);
@@ -13,22 +14,24 @@ const ScrollArrow = () => {
     }
   };
 
-  const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  // const scrollTop = () => {
+  //   window.scrollTo({ top: 0, behavior: 'smooth' });
+  // };
 
   window.addEventListener('scroll', checkScrollTop);
 
   return (
-    <FaArrowCircleUp
-      className={classes.scrollTop}
-      onClick={scrollTop}
-      style={{
-        height: 40,
-        color: '#fff',
-        display: showScroll ? 'flex' : 'none',
-      }}
-    />
+    <Link to='home' spy={true} smooth='easeInOutCubic' duration={2000}>
+      <FaArrowCircleUp
+        className={classes.scrollTop}
+        // onClick={scrollTop}
+        style={{
+          height: 40,
+          color: '#fff',
+          display: showScroll ? 'flex' : 'none',
+        }}
+      />
+    </Link>
   );
 };
 

@@ -160,23 +160,35 @@
 }
 
 @media (max-width: 499px) {
+  .image {
+    background-color: rgb(0 0 0 / 50%);
+  }
+
   .heading {
     width: 300px;
+    bottom: 40%;
   }
 
   .heading1 {
-    font-size: 20px;
+    font-size: 23px;
     left: 0;
     top: 30%;
   }
 
   .heading2 {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 45px;
   }
 
   .text {
-    font-size: 10px;
+    font-size: 12px;
+    left: 4%;
+  }
+
+  .btn {
+    width: 100%;
+    bottom: -106%;
+    left: 0;
   }
 
   .text p span {

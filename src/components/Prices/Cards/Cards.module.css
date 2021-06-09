@@ -166,6 +166,46 @@
   .cards {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .card {
+    width: 80%;
+    height: 43rem;
+  }
+
+  .card__side {
+    height: 40rem;
+    top: 30px;
+  }
+
+  .card h1 {
+    font-size: 20px;
+  }
+
+  .card h2 {
+    font-size: 15px;
+  }
+
+  .card h3 {
+    font-size: 10px;
+  }
+
+  .card h4 {
+    font-size: 8px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .card li {
+    font-size: 10px;
+  }
+
+  .image {
+    height: 50px;
+    width: 50px;
+    margin: 15px auto;
+  }
 }
 
 @media (max-width: 1024px) {

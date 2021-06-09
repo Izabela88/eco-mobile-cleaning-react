@@ -68,10 +68,12 @@
 @media (max-width: 499px) {
   .container__image {
     height: 230px;
+    width: 245px;
   }
 
   .container__image img {
     top: -22px;
+    margin-left: 15%;
   }
   .text {
     width: 335px;
@@ -89,6 +91,10 @@
   .icon {
     width: 60px;
     height: 60px;
+  }
+
+  .box__persons {
+    height: 50vh;
   }
 }
 

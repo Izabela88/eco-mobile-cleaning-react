@@ -4,7 +4,6 @@ import Form from './Form/Form';
 import img from '../../assets/images/i1.jpg';
 import email from '../../assets/images/icons/email.svg';
 import phone from '../../assets/images/icons/phone.svg';
-import address from '../../assets/images/icons/map-pointer.svg';
 import fac from '../../assets/images/icons/facebook-logo.svg';
 
 export default function Contact() {
@@ -36,15 +35,8 @@ export default function Contact() {
             <div className={classes.icon}>
               <img src={phone} alt='' />
             </div>
-            <p>+44 7456 470550</p>
-            <div className={classes.icon}>
-              <img src={address} alt='' />
-            </div>
-            <p>
-              136 Field Lane
-              <br /> 26 Cheering Lane <br />
-              Derby DE24 0GT
-            </p>
+            <p>+44 7784926294</p>
+
             <div className={classes.icon}>
               <img src={fac} alt='' />
             </div>

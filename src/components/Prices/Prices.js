@@ -23,7 +23,7 @@ export default function Prices() {
         <div data-aos='fade-up' data-aos-mirror='true'>
           <Cards />
         </div>
-        <div data-aos='fade-up' data-aos-mirror='true'>
+        <div data-aos='fade-up'>
           <Boxes />
         </div>
       </div>

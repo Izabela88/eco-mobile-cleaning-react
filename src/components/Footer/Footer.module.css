@@ -1,6 +1,7 @@
 .main__footer {
   height: 100px;
   background-color: #000;
+  position: relative;
 }
 
 .footer__content {
@@ -35,5 +36,6 @@
 
   .footer__content p {
     font-size: 13px;
+    padding: 15px;
   }
 }

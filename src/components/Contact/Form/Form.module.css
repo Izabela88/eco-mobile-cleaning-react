@@ -57,13 +57,14 @@
 
 @media (max-width: 499px) {
   .form {
-    height: 525px;
-    width: 345px;
+    height: 475px;
+    width: 312px;
   }
 
   .input {
-    height: 35px;
-    font-size: 15px;
+    height: 30px;
+    font-size: 11px;
+    width: 100%;
   }
 
   .textarea {
@@ -72,7 +73,7 @@
   }
 
   .btn {
-    margin-top: 5px;
+    margin-top: 8px;
   }
 }
 

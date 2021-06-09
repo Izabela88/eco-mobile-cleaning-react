@@ -26,7 +26,8 @@
 
 @media (max-width: 499px) {
   .persons__heading h1 {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 25px;
   }
 }
 

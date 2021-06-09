@@ -116,22 +116,21 @@
 
 @media (max-width: 499px) {
   .contact {
-    height: 100%;
-    overflow: auto;
+    height: 100vh;
   }
 
   .headings {
-    margin-top: -240px;
-    padding: 70px;
+    margin-top: -200px;
+    padding: 40px;
   }
 
   .headings h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .contact__box {
     flex-direction: column;
-    width: 400px;
+    width: 340px;
     height: 583px;
     position: relative;
     margin: 240px auto;
@@ -139,8 +138,10 @@
   }
 
   .form__icons {
-    height: 125px;
-    width: 250px;
+    height: 230px;
+    width: 288px;
+    margin-bottom: -110px;
+    grid-gap: 0;
   }
 
   .form__icons p {

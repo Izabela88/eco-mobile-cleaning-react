@@ -62,8 +62,8 @@
     grid-template-columns: repeat(1, 1fr);
     position: relative;
     width: 350px;
-    margin: auto;
-    margin-top: 215%;
+    margin: 80px auto;
+    height: 100%;
   }
 
   .box h2 {

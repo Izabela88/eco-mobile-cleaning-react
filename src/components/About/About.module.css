@@ -66,8 +66,8 @@
 
 @media (max-width: 499px) {
   .about {
-    height: 100vh;
-    overflow: auto;
+    height: auto;
+    overflow: hidden;
   }
 
   .heading {
@@ -80,6 +80,7 @@
 
   .heading h1 {
     font-size: 30px;
+    margin-top: 80px;
   }
 
   .image {

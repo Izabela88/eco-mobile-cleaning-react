@@ -131,17 +131,17 @@
   .contact__box {
     flex-direction: column;
     width: 340px;
-    height: 583px;
+    height: 665px;
     position: relative;
-    margin: 240px auto;
+    margin: 35px auto;
     top: 0;
   }
 
   .form__icons {
-    height: 230px;
+    height: 120px;
     width: 288px;
-    margin-bottom: -110px;
-    grid-gap: 0;
+    margin-bottom: 60px;
+    grid-gap: 10px;
   }
 
   .form__icons p {

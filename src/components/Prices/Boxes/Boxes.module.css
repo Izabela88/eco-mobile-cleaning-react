@@ -60,7 +60,7 @@
   .box {
     grid-template-columns: repeat(1, 1fr);
     width: 365px;
-    margin-top: 26%;
+    margin-top: -18%;
   }
 
   .box__item {

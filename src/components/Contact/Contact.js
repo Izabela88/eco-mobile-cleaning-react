@@ -17,7 +17,7 @@ export default function Contact() {
     >
       <div className={classes.box}></div>
       <div className={classes.container}>
-        <div className={classes.headings}>
+        <div className={classes.heading}>
           <h1>
             <span>Book</span> Your Appoitment Here!
           </h1>

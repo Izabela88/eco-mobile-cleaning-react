@@ -5,7 +5,7 @@ import Logo from '../../Logo/Logo';
 import { debounce } from '../../utilities/helpers';
 import { useState, useEffect } from 'react';
 
-export default function Toolbar() {
+export default function Toolbar(props) {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
@@ -38,6 +38,7 @@ export default function Toolbar() {
       <div className={classes.logo}>
         <Logo id='home' />
       </div>
+
       <nav className={classes.desktop__only}>
         <NavigationItems />
       </nav>

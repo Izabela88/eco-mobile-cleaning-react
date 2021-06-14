@@ -5,12 +5,36 @@ import NavigationItem from './NavigationItem/NavigationItem';
 export default function NavigationItems() {
   return (
     <ul className={classes.navigation__items}>
-      <NavigationItem id='home'>Home</NavigationItem>
-      <NavigationItem id='about'>About</NavigationItem>
-      <NavigationItem id='prices'>Prices</NavigationItem>
-      <NavigationItem id='testimonials'>Reviews</NavigationItem>
-      <NavigationItem id='contact'>Booking</NavigationItem>
-      <NavigationItem id='contact'>Contact</NavigationItem>
+      <NavigationItem id='home'>
+        <div className={classes.icon}>
+          <p>Home</p>
+        </div>
+      </NavigationItem>
+      <NavigationItem id='about'>
+        <div className={classes.icon}>
+          <p>About</p>{' '}
+        </div>
+      </NavigationItem>
+      <NavigationItem id='prices'>
+        <div className={classes.icon}>
+          <p>Prices</p>
+        </div>
+      </NavigationItem>
+      <NavigationItem id='testimonials'>
+        <div className={classes.icon}>
+          <p>Reviews</p>
+        </div>
+      </NavigationItem>
+      <NavigationItem id='contact'>
+        <div className={classes.icon}>
+          <p>Booking</p>
+        </div>
+      </NavigationItem>
+      <NavigationItem id='contact'>
+        <div className={classes.icon}>
+          <p>Contact</p>
+        </div>
+      </NavigationItem>
     </ul>
   );
 }

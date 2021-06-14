@@ -6,18 +6,21 @@ import Persons from './components/Testimonials/Persons/Persons';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import ScrollToTopBtn from './components/ScrollToTopBtn/ScrollToTopBtn';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
     <div className='App'>
-      <Home />
-      <Toolbar />
-      <About />
-      <Prices />
-      <Persons />
-      <Contact />
-      <ScrollToTopBtn />
-      <Footer />
+      <Layout>
+        <Home />
+        <Toolbar />
+        <About />
+        <Prices />
+        <Persons />
+        <Contact />
+        <ScrollToTopBtn />
+        <Footer />
+      </Layout>
     </div>
   );
 }

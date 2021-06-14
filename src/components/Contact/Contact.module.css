@@ -4,7 +4,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 100vh;
+  overflow: hidden;
 }
 
 .box {
@@ -23,20 +23,16 @@
   position: relative;
 }
 
-.headings {
-  position: absolute;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+.heading {
+  position: relative;
+  margin: auto;
+  top: 30px;
   text-align: center;
-  margin-top: 70px;
   color: var(--color-primary-400);
   font-family: 'Spartan', sans-serif;
 }
 
-.headings h1 {
+.heading h1 {
   font-size: 40px;
   letter-spacing: 0;
   color: #fff;
@@ -46,8 +42,7 @@
   width: 1300px;
   height: 740px;
   margin: auto;
-  top: 15%;
-  position: inherit;
+  position: relative;
   padding: 20px;
   box-shadow: 0 12px 30px rgb(0 0 0 / 61%);
   display: flex;
@@ -115,23 +110,18 @@
 }
 
 @media (max-width: 499px) {
-  .contact {
-    height: 100vh;
-  }
-
-  .headings {
-    margin-top: -200px;
+  .heading {
     padding: 40px;
   }
 
-  .headings h1 {
+  .heading h1 {
     font-size: 30px;
   }
 
   .contact__box {
     flex-direction: column;
     width: 340px;
-    height: 665px;
+    height: 100%;
     position: relative;
     margin: 35px auto;
     top: 0;
@@ -140,7 +130,7 @@
   .form__icons {
     height: 120px;
     width: 288px;
-    margin-bottom: 60px;
+    margin: 60px auto;
     grid-gap: 10px;
   }
 
